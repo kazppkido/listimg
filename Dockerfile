@@ -1,4 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/tf-cpu.2-6:m94
+FROM gcr.io/deeplearning-platform-release/tf-cpu.2-17:latest
 WORKDIR /
 RUN apt update && apt -y install curl git wget sudo ufw
 # Copies the trainer code to the docker image.
